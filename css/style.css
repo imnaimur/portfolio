@@ -1,0 +1,136 @@
+
+
+body{
+    font: 15px/1.5 Arial,helvetica,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #C2DFFF;
+
+}
+/* global stuff */
+.container{
+    width: 80%; 
+    margin: auto;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+    color:#f4f4f4;
+}
+ul{
+    padding:0;
+    margin: 0;
+}
+
+.btn{
+    background-color: #2a8f68;
+    color: #f4f4f4;
+    font-size: 16px;
+    border:0px solid;
+    border-radius: 5px;
+}
+
+/* header */
+header{
+    background-color: #2a8f68;
+    color: #f4f4f4;
+    min-height: 72px;
+    border-bottom: #275CAB 3px solid;
+}
+.branding{
+    color:#275CAB;
+}
+header h1{
+    float: left;
+    font-weight: bold;
+}
+header nav{
+    float:right;
+}
+header li{
+    display: inline;
+    float: left;
+    padding: 0 10px;
+    padding-top: 20px;
+    margin: 0;
+}
+header a:hover{
+    color:#275CAB;
+    font-weight: bold;
+}
+
+/* suitcase */
+
+.suitcase{
+    text-align: center;
+    min-height: 200px;
+}
+.suitcase h1{
+    padding-top:30px;
+    color: #2a8f68;
+    font-size: 30px;
+}
+.suitcase p{
+    font-size: 18px;
+}
+.subscription{
+    border-top: #275CAB 3px solid;
+    border-bottom: #275CAB 3px solid;
+}
+.subscription h1{
+    float: left;
+    padding: 0;
+    margin: 15px;
+}
+.subscription form{
+    float: right;
+    margin-top:15px;
+}
+.subscription form input[type ="email"]{
+    height: 37px;
+    width: 250px;
+    border:0px solid;
+    border-radius: 5px;
+}
+.subscription form .btn{
+    margin-left:5px ;
+    height: 37px;
+    width: 80px;
+    border:0px solid;
+    border-radius: 5px;
+    /* background-color: #f4f4f4; */
+}
+.boxes{
+    float:left;
+}
+.box{
+    padding: 10px;
+    text-align:right;
+    width:20%;
+    float: left;
+    text-align:center;
+}
+img{
+    width:80px;
+}
+footer form{
+    padding:20px 0;
+}
+textarea[name="textbox"]{
+    /* margin: 20px 0 0 0px; */
+    margin-right:5px ;
+    border: 3px solid;
+    border: 3px solid #2a8f68;
+}
+footer div{
+    background-color: #2a8f68;
+    color: #f4f4f4;
+    padding:30px 0px ;
+    text-align: center;
+}
+footer span{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 5px 0 0;
+    margin: 0;
+}
