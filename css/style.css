@@ -36,8 +36,9 @@ header{
     color: #f4f4f4;
     min-height: 72px;
     border-bottom: #275CAB 3px solid;
+    padding-bottom: 10px;
 }
-.branding{
+.branding, .current{
     color:#275CAB;
 }
 header h1{
@@ -46,6 +47,7 @@ header h1{
 }
 header nav{
     float:right;
+    padding-right: 5px;
 }
 header li{
     display: inline;
@@ -53,10 +55,11 @@ header li{
     padding: 0 10px;
     padding-top: 20px;
     margin: 0;
+    font-weight: bold;
 }
 header a:hover{
     color:#275CAB;
-    font-weight: bold;
+    font-weight: lighter;
 }
 
 /* suitcase */
