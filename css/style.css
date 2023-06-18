@@ -137,3 +137,47 @@ footer span{
     padding: 0 5px 0 0;
     margin: 0;
 }
+
+/* About */
+.propic{
+    margin: 20px 0;
+    border: 1px solid #2a8f68;
+    border-radius: 20px;
+    width: 120px;
+}
+.info{
+    width: 60%;
+    float: left;
+    padding:  0 0 10px 0;
+}
+.info h1{
+    padding: 0;
+    margin: 0;
+}
+.info span{
+    display: block;
+    padding: 3px;
+}
+
+aside{
+    background-color: darkgray;
+    width: 20%;
+    float: right;
+    margin-top: 30px;
+    padding: 10px;
+}
+aside h3{
+    padding: 10px 0 0 0;
+    margin: 0;
+}
+aside span{
+    display: block;
+    padding: 2px;
+}
+.profile{
+    height: 79vh;
+}
+aside a:hover{
+    color:#275CAB;
+    font-weight: bold;
+}
